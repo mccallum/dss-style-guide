@@ -1,111 +1,17 @@
+extends styleguide/structure/_includes/_layout
+block styles
+	link(href='styleguide/assets/styles/structure.css', rel='stylesheet')
+	link(href='styleguide/assets/styles/styleguide.css', rel='stylesheet')
 
-header
-  <div class="cd-logo"><img src="assets/logo.svg" alt="Logo"></div>
-  <nav>
-  <ul class="cd-main-nav">
-  <li><a href="#branding">Branding</a></li>
-  <li><a href="#colors">Colors</a></li>
-  <li><a href="#typography">Typography</a></li>
-  <li><a href="#buttons">Buttons</a></li>
-  <li><a href="#icons">Icons</a></li>
-  <li><a href="#form">Form</a></li>
-  </ul> <!-- cd-main-nav -->
-  </nav>
-  <a href="assets/assets-download-file.zip" class="cd-download"><span>Download assets</span></a>
-  <a href="#0" class="cd-nav-trigger">Menu<span></span></a>
-main
-  h1 Style Guide 1.0
-  <section id="branding" class="cd-branding">
-  h2 Branding
-  <ul>
-  <li class="cd-box"><img src="assets/branding/logo-ver-1.jpg" alt="Logo version 1"></li>
-  <li class="cd-box"><img src="assets/branding/logo-ver-2.jpg" alt="Logo version 2"></li>
-  </ul>
-  <ul>
-  <li><img src="assets/branding/touch-icon-1.jpg" alt="Touch Icon 1"></li>
-  <li><img src="assets/branding/touch-icon-2.jpg" alt="Touch Icon 2"></li>
-  <li><img src="assets/branding/favicon-1.jpg" alt="Favicon 1"></li>
-  <li><img src="assets/branding/favicon-2.jpg" alt="Favicon 2"></li>
-  </ul>
-  </section>
-  <section id="colors" class="cd-colors">
-  h2 Colors
-  <ul>
-  <li class="cd-box">
-  <div class="cd-color-swatch"></div>
-  </li>
-  <li class="cd-box">
-  <div class="cd-color-swatch"></div>
-  </li>
-  <li class="cd-box">
-  <div class="cd-color-swatch"></div>
-  </li>
-  <li class="cd-box">
-  <div class="cd-color-swatch"></div>
-  </li>
-  <li class="cd-box">
-  <div class="cd-color-swatch"></div>
-  </li>
-  </ul>
-  </section>
-  <section id="typography" class="cd-typography">
-  <h2>Typography</h2>
-  <div class="cd-box">
-  h1 Heading, <span></span>
-  <p>Aa - <span></span>. The collections of Oregon Digital are primarily created to support the teaching and research missions of the University of Oregon and Oregon State University. The collections are comprised of unique digitized and born-digital materials including photographs, articles, sheet music, manuscripts, ephemera, and more. Oregon Digital is collaboratively managed by the Digital Scholarship Center of the University of Oregon Libraries and by Oregon State University Libraries.</p>
-  </div>
-  </section>
-  <section id="buttons" class="cd-buttons">
-  h2 Buttons
-  <div class="cd-box">
-  <button class="btn">Normal</button>
-  <button class="btn btn-success">Success</button>
-  <button class="btn btn-alert">Alert</button>
-  <button class="btn btn-outline">Outline</button>
-  </div>
-  </section>
-  <section id="icons" class="cd-icons">
-  h2 Icons
-  <ul class="cd-box">
-  <li class="cd-icon-1"></li>
-  <li class="cd-icon-2"></li>
-  <li class="cd-icon-3"></li>
-  <li class="cd-icon-4"></li>
-  <li class="cd-icon-5"></li>
-  <li class="cd-icon-6"></li>
-  <li class="cd-icon-7"></li>
-  <li class="cd-icon-8"></li>
-  </ul>
-  </section>
-  <section id="form" class="cd-form">
-  h2 Form
-  <div class="cd-box">
-  <form>
-  <fieldset>
-  <input type="text">
-  <input class="success" type="text">
-  <input class="alert" type="text">
-  </fieldset>
-  <fieldset>
-  <div class="cd-input-wrapper">
-  <input type="radio" name="radioButton" id="radio1">
-  <label class="radio-label" for="radio1">Choice 1</label>
-  </div>
-  <div class="cd-input-wrapper">
-  <input type="checkbox" id="checkbox1">
-  <label class="checkbox-label" for="checkbox1">Option 1</label>
-  </div>
-  <div class="cd-input-wrapper cd-select">
-  <select name="select-this" id="select-this">
-  <option value="0">Select</option>
-  <option value="1">Option 1</option>
-  <option value="2">Option 2</option>
-  <option value="2">Option 3</option>
-  </select>
-  </div>
-  </fieldset>
-  </form>
-  </div>
-  </section>
-<script src="js/jquery-2.1.1.js"></script>
-<script src="js/main.js"></script> <!-- Resource jQuery -->
+block content
+	include styleguide/structure/_templates/_header.jade
+	include styleguide/structure/_templates/_sidebar.jade
+	.huge-iframe-wrapper
+		iframe(src="styleguide/styleguide.html", frameborder="0", height="100%", width="100%")
+
+block scripts
+	script(src="styleguide/structure/scripts/vendor/jquery-1.11.1.min.js")
+	script(src="styleguide/structure/scripts/styleguide.js")
+	if !process.env.STYLEGUIDE_COMPILE
+		script.
+			document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':8374/livereload.js?snipver=1"></' + 'script>')
