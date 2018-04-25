@@ -1,5 +1,5 @@
 {
-  "clientName": "Digital Scholarship Cluster",
+  "clientName": "Digital Scholarship",
   "version": "0.0.0-1.0",
   "language": "en_US",
   "logoImage": "huge-logo.svg",
@@ -39,5 +39,5 @@
       "styleguide": "Style Guide"
     }
   },
-  "date": "2018/4/24"
+  "date": "2018/4/25"
 }
