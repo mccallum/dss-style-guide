@@ -3,7 +3,7 @@
   "name": "Introduction",
   "scripts": ["introduction.js"],
   "items" : [
-        "Digital Scholarship is part of UO Libraries.",
-        "Please feel free to collaborate with us."
+        "Digital Scholarship Center and Services is part of University of Oregon Libraries at University of Oregon. The University of Oregon maintains an online style guide through <a href='https://communications.uoregon.edu'>communications.uoregon.edu</a>. This style guide complements that in  ",
+        "Questions about this style guide can be directed to <a href='mailto:digitalscholarship@uoregon.edu'>digitalscholarship@uoregon.edu</a>."
     ]
 }

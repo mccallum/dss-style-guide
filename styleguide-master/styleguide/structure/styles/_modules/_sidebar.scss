@@ -1,3 +1,5 @@
+$uogreen: #62a70f;
+
 .huge-sidebar__toggle--in {
   overflow: hidden;
   cursor: pointer;
@@ -75,7 +77,7 @@
   text-align: center;
   height: 63px;
   width: 63px;
-  background-color: $magenta;
+  background-color: $uogreen;
   padding: 20px 0 10px 0;
   z-index: 10;
   position: absolute;
@@ -135,6 +137,7 @@
 .huge-sidebar__logo {
   display: block;
   width: 140px;
+  height: 140px;
   margin: 29px 0 40px 29px;
 }
 
@@ -168,14 +171,14 @@
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   line-height: 1.5;
-  border-left: 0 solid $magenta;
+  border-left: 0 solid $uogreen;//$magenta;
   outline: none;
   transition: all 0.4s ease;
 
   &:hover, &.active {
-    color: $magenta;
+    color: $uogreen;
     transition: all 0.4s ease;
-    border-left: 4px solid $magenta
+    border-left: 4px solid $uogreen;
   }
 }
 

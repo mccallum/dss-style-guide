@@ -1,23 +1,27 @@
-$magenta: #ec008c;
-$black: #000;
-$grey-dark: #232525;
-$grey: #808080;
-$blue: #2fbbf9;
+$magenta: #154733; //uogreen
+$black: #fee123; //uoyellow
+$grey-dark: #62a70f; //ltgreen
+$grey: #ffd200; //altyellow
+$blue: #9f3224; //rust
 
-.bg-magenta {
-	background-color: $magenta;
+.bg-uogreen {
+  background-color: $magenta;
 }
 
-.bg-black {
-	background-color: $black;
+.bg-uoyellow {
+  background-color: $black;
 }
 
-.bg-grey {
-	background-color: $grey;
+.bg-ltgreen {
+  background-color: $grey-dark;
 }
 
-.bg-blue {
-	background-color: $blue;
+.bg-altyellow {
+  background-color: $grey;
+}
+
+.bg-rust {
+  background-color: $blue;
 }
 
 #colors {

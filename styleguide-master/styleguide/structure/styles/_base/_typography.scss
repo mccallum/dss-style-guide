@@ -4,8 +4,8 @@
   line-height: 30px;
   margin: 0 0 45px;
   font-weight: normal;
-  font-family: HUGEAvantGardeBold, sans-serif;
-  color: #000;
+  font-family: "Kievit Pro", Helvetica, HUGEAvantGardeBold, sans-serif;
+  color: #333;
   -webkit-font-smoothing: antialiased;
   letter-spacing: -1px;
 }
@@ -15,12 +15,19 @@ a {
 }
 
 p.huge-module__paragraph {
+  font-size: 1.2em;
+  line-height: 1.5em;
   margin: 0;
   margin-bottom: 25px;
   color: #333;
   -webkit-font-smoothing: antialiased;
   a {
-    color: $magenta
+    //color: $magenta;
+    color: #154733;
+    text-decoration: none;
+    border-bottom: 1px #62a70f dashed;
+    font-weight: bold;
+
   }
 }
 
