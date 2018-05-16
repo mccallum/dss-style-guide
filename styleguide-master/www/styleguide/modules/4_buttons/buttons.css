@@ -1,0 +1,26 @@
+.button {
+    cursor: pointer;
+    text-decoration: none!important;
+    display: inline-block;
+    font-family: 'Kievit Pro', Arial, sans-serif;
+    text-align: center;
+    color: #fff;
+    transition: background-color 0.3s, opacity 0.3s
+}
+
+.button.load {
+    transition: 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275) all
+}
+
+.button.green {
+    background: #62a70f;
+    width: 160px;
+    height: 54px;
+    line-height: 54px;
+    font-size: 20px
+}
+
+.button:hover {
+    background-color: #154733!important;
+    color: #fff
+}

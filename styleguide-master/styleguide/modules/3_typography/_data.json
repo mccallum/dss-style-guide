@@ -6,21 +6,21 @@
         "fonts": [
             {
                 "heading": "1",
-                "fontName" : "HUGE Avant Garde Bold",
-                "fontSize": "100px",
+                "fontName" : "Kievit",
+                "fontSize": "80px",
                 "className": "font-huge",
-                "title": "Hello."
+                "title": "Fueling Innovation and Inquiry"
             },
             {
                 "heading": "2",
-                "fontName" : "Galaxie Copernicus Book Italic",
-                "fontSize": "80px",
+                "fontName" : "Kievit Italic",
+                "fontSize": "60px",
                 "className": "font-galaxie italic",
-                "title": "Thursday"
+                "title": "Enhancing Creation"
             },
             {
                 "heading": "3",
-                "fontName" : "HUGE Avant Garde Bold",
+                "fontName" : "Kievit Bold",
                 "fontSize": "38px",
                 "className": "font-huge small-3",
                 "title": "Born Hackers: Digital Kids Revisited."
@@ -30,11 +30,15 @@
         "paragraphs": [
             {
                 "className": "p1",
-                "text": "SEO is a marketing tactic that costs five percent of overall budget but brings in more than 20 percent of revenue for many Fortune 500 companies, and yet very few of them prioritize it. Instead, while slowly changing, too many CMOS still favor paid search, which costs 20 percent and brings in… 20 percent. In search, businesses need to shift priorities. Now."
+                "text": "The Digital Scholarship Center (DSC) supports and advances the UO's teaching, learning, and research in the digital humanities and digital social sciences, by providing access to an array of academic/library technology services and resources, and by creating a focused collective of faculty experts using digital methods and technology to transform their work. The DSC is located in and administered by the UO Libraries, in partnership with multiple stakeholders and a Council of faculty advisors."
             },
             {
                 "className": "p2",
                 "text": "Link volume is one of the most powerful signals search engines use to rank websites. There’s a way to use links to generate better search results, but too many marketers rely on traditional (or even black hat) tactics that just don’t work anymore."
+            },
+            {
+                "className": "p2 phighlight",
+                "text": "They're establishing a central, holistic gateway for external audiences, scholars, and industry to access UO's distinctive research and scholarship in the digital humanities and digital social sciences."
             },
             {
                 "className": "p3 small-3",

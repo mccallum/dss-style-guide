@@ -2,19 +2,22 @@
     "id": "colors",
     "name": "Colors",
     "items": {
-        "intro": ["Huge have two main colors: Magenta and Black. Additional Blue might be found on slides or t-shirts."],
+        "intro": ["In addition to the green and yellow of the UO's main brand identity, Digital Scholarship uses a lighter green, alternative yellow, and a rust red for iconic Knight Library building."],
         "colors": [
             {
-                "className": "bg-magenta"
+                "className": "bg-uogreen"
             },
             {
-                "className": "bg-black"
+                "className": "bg-uoyellow"
             },
             {
-                "className": "bg-grey"
+                "className": "bg-ltgreen"
             },
             {
-                "className": "bg-blue"
+                "className": "bg-altyellow"
+            },
+            {
+                "className": "bg-rust"
             }
         ]
     }
