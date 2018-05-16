@@ -7,14 +7,14 @@
             {
                 "heading": "1",
                 "fontName" : "Kievit",
-                "fontSize": "100px",
+                "fontSize": "80px",
                 "className": "font-huge",
                 "title": "Fueling Innovation and Inquiry"
             },
             {
                 "heading": "2",
                 "fontName" : "Kievit Italic",
-                "fontSize": "80px",
+                "fontSize": "60px",
                 "className": "font-galaxie italic",
                 "title": "Enhancing Creation"
             },

@@ -19,12 +19,12 @@
 }
 
 h1 {
-  font-size: 100px;
-  line-height: 120px;
+  font-size: 80px;
+  line-height: 86px;
 }
 
 h2 {
-  font-size: 80px;
+  font-size: 60px;
   color: #999999;
   line-height: 92px;
 }
@@ -32,6 +32,7 @@ h2 {
 h3 {
   font-size: 38px;
   line-height: 45px;
+  font-weight: bold;
 }
 
 .p1, .p2 {
@@ -50,7 +51,7 @@ h3 {
     margin-top: 0;
   }
   p {
-    font: 16px/2 "Galaxie";
+    font: 18px/1.6 'Melior LT Std';
     margin: 2em 0;
   }
 
@@ -62,5 +63,6 @@ h3 {
     font-family: 'Kievit Pro', sans-serif;
     font-size: 1.2em;
     line-height: 1.4em;
+    max-width: 40em;
   }
 }
