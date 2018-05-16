@@ -14,7 +14,7 @@ ul.list_huge li::before {
     content: '▶';
     font-size: 11px;
     top: 4px;
-    color: #ec008c;
+    color: #9f3224;
     position: absolute;
     left: 0
 }
@@ -32,7 +32,7 @@ ol.list_huge li::before {
     content: counters(item, ".") " ";
     counter-increment: item;
     top: 0;
-    color: #ec008c;
+    color: #9f3224;
     position: absolute;
     left: 0
 }

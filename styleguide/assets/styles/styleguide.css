@@ -1,18 +1,22 @@
 @import url(../../assets/fonts/Huge/stylesheet.css);
-.bg-magenta {
-    background-color: #ec008c
+.bg-uogreen {
+    background-color: #154733
 }
 
-.bg-black {
-    background-color: #000
+.bg-uoyellow {
+    background-color: #fee123
 }
 
-.bg-grey {
-    background-color: gray
+.bg-ltgreen {
+    background-color: #62a70f
 }
 
-.bg-blue {
-    background-color: #2fbbf9
+.bg-altyellow {
+    background-color: #ffd200
+}
+
+.bg-rust {
+    background-color: #9f3224
 }
 
 #colors li {
@@ -41,17 +45,17 @@
 }
 
 .font-huge {
-    font-family: 'HUGEAvantGardeBold', Helvetica, Arial, sans-serif;
+    font-family: 'Kievit Pro', 'HUGEAvantGardeBold', Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
     font-weight: normal
 }
 
 .font-galaxie {
-    font-family: 'Galaxie', Helvetica, Roboto, Arial, sans-serif;
+    font-family: 'Kievit Pro', 'Galaxie', Helvetica, Roboto, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
-    font-weight: normal
+    font-weight: bold
 }
 
 .italic {
@@ -59,18 +63,20 @@
 }
 
 h1 {
-    font-size: 100px;
-    line-height: 120px
+    font-size: 80px;
+    line-height: 86px
 }
 
 h2 {
-    font-size: 80px;
+    font-size: 60px;
+    color: #999;
     line-height: 92px
 }
 
 h3 {
     font-size: 38px;
-    line-height: 45px
+    line-height: 45px;
+    font-weight: bold
 }
 
 .p1,
@@ -96,16 +102,26 @@ h3 {
 }
 
 #typography p {
-    font: 16px/2 "Galaxie";
+    font: 18px/1.6 'Melior LT Std';
     margin: 2em 0
+}
+
+#typography p.phighlight {
+    background-color: #ffd200;
+    color: black;
+    padding: 2em;
+    font-weight: bold;
+    font-family: 'Kievit Pro', sans-serif;
+    font-size: 1.2em;
+    line-height: 1.4em;
+    max-width: 40em
 }
 
 .button {
     cursor: pointer;
     text-decoration: none!important;
     display: inline-block;
-    font-family: Arial, sans-serif;
-    font-weight: bold;
+    font-family: 'Kievit Pro', Arial, sans-serif;
     text-align: center;
     color: #fff;
     transition: background-color 0.3s, opacity 0.3s
@@ -115,16 +131,16 @@ h3 {
     transition: 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275) all
 }
 
-.button.black {
-    background: #000;
+.button.green {
+    background: #62a70f;
     width: 160px;
     height: 54px;
     line-height: 54px;
-    font-size: 13px
+    font-size: 20px
 }
 
 .button:hover {
-    background-color: #ec008c!important;
+    background-color: #154733!important;
     color: #fff
 }
 
@@ -144,7 +160,7 @@ ul.list_huge li::before {
     content: '▶';
     font-size: 11px;
     top: 4px;
-    color: #ec008c;
+    color: #9f3224;
     position: absolute;
     left: 0
 }
@@ -162,7 +178,7 @@ ol.list_huge li::before {
     content: counters(item, ".") " ";
     counter-increment: item;
     top: 0;
-    color: #ec008c;
+    color: #9f3224;
     position: absolute;
     left: 0
 }

@@ -1,17 +1,21 @@
-.bg-magenta {
-    background-color: #ec008c
+.bg-uogreen {
+    background-color: #154733
 }
 
-.bg-black {
-    background-color: #000
+.bg-uoyellow {
+    background-color: #fee123
 }
 
-.bg-grey {
-    background-color: gray
+.bg-ltgreen {
+    background-color: #62a70f
 }
 
-.bg-blue {
-    background-color: #2fbbf9
+.bg-altyellow {
+    background-color: #ffd200
+}
+
+.bg-rust {
+    background-color: #9f3224
 }
 
 #colors li {
