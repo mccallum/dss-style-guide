@@ -1561,8 +1561,8 @@ pre[class*='language-']>code[data-language]::before {
     line-height: 30px;
     margin: 0 0 45px;
     font-weight: normal;
-    font-family: HUGEAvantGardeBold, sans-serif;
-    color: #000;
+    font-family: "Kievit Pro", Helvetica, HUGEAvantGardeBold, sans-serif;
+    color: #333;
     -webkit-font-smoothing: antialiased;
     letter-spacing: -1px
 }
@@ -1572,6 +1572,8 @@ a {
 }
 
 p.huge-module__paragraph {
+    font-size: 1.2em;
+    line-height: 1.5em;
     margin: 0;
     margin-bottom: 25px;
     color: #333;
@@ -1579,7 +1581,10 @@ p.huge-module__paragraph {
 }
 
 p.huge-module__paragraph a {
-    color: #ec008c
+    color: #154733;
+    text-decoration: none;
+    border-bottom: 1px #62a70f dashed;
+    font-weight: bold
 }
 
 .huge-module__title--small {
@@ -1600,7 +1605,7 @@ p.huge-module__paragraph a {
 
 body {
     line-height: 24px;
-    font: 16px/2 'Galaxie', Geneva, Helvetica, Arial, sans-serif;
+    font: 16px/2 "Melior LT Std", Helvetica, 'Galaxie', Geneva, Helvetica, Arial, sans-serif;
     color: #333;
     background-color: #fff
 }
@@ -1628,11 +1633,11 @@ main {
 }
 
 .huge-header .huge-header__welcome {
-    font-family: Arial, sans-serif
+    font-family: Helvetica, Arial, sans-serif
 }
 
 .huge-header .huge-header__breakpoints__item__link {
-    font-family: Arial, sans-serif
+    font-family: Helvetica, Arial, sans-serif
 }
 
 .huge-header__breakpoints {
@@ -1809,7 +1814,7 @@ body.opened .huge-header {
     text-align: center;
     height: 63px;
     width: 63px;
-    background-color: #ec008c;
+    background-color: #62a70f;
     padding: 20px 0 10px 0;
     z-index: 10;
     position: absolute
@@ -1868,6 +1873,7 @@ body.opened .huge-header {
 .huge-sidebar__logo {
     display: block;
     width: 140px;
+    height: 140px;
     margin: 29px 0 40px 29px
 }
 
@@ -1901,16 +1907,16 @@ body.opened .huge-header {
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
     line-height: 1.5;
-    border-left: 0 solid #ec008c;
+    border-left: 0 solid #62a70f;
     outline: none;
     transition: all 0.4s ease
 }
 
 .huge-sidebar__nav__item__link:hover,
 .huge-sidebar__nav__item__link.active {
-    color: #ec008c;
+    color: #62a70f;
     transition: all 0.4s ease;
-    border-left: 4px solid #ec008c
+    border-left: 4px solid #62a70f
 }
 
 body.opened .huge-sidebar__content {
@@ -1984,7 +1990,7 @@ body.opened .huge-iframe-wrapper {
     max-width: 100%;
     margin: 0 auto;
     padding: 15px 0 0;
-    background-color: #fff
+    background-color: #fefffa
 }
 
 .huge-module__toggle-code {
