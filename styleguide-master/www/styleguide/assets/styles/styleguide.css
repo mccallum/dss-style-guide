@@ -1,4 +1,4 @@
-@import url(../../assets/fonts/Huge/stylesheet.css);
+@import url(../../assets/fonts/DSS/stylesheet.css);
 .bg-uogreen {
     background-color: #154733
 }
@@ -45,14 +45,14 @@
 }
 
 .font-huge {
-    font-family: 'Kievit Pro', 'HUGEAvantGardeBold', Helvetica, Arial, sans-serif;
+    font-family: 'Kievit', Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
     font-weight: normal
 }
 
 .font-galaxie {
-    font-family: 'Kievit Pro', 'Galaxie', Helvetica, Roboto, Arial, sans-serif;
+    font-family: 'Kievit', Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
     font-weight: bold
@@ -102,7 +102,7 @@ h3 {
 }
 
 #typography p {
-    font: 18px/1.6 'Melior LT Std';
+    font: 18px/1.6 'Melior';
     margin: 2em 0
 }
 
@@ -767,7 +767,7 @@ table th {
 }
 
 table th {
-    font-family: 'HUGEAvantGardeBold', Helvetica, Arial, sans-serif;
+    font-family: 'Kievit', sans-serif;
     font-weight: normal;
     border-bottom: 1px solid #cbcbcb
 }
