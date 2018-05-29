@@ -5,9 +5,14 @@
     "items": {
         "templates": [
             {
-                "link": "",
-                "templateName": "Home",
-                "thumbnailFile": "template01.svg"
+                "link": "https://dsc.uoregon.edu",
+                "templateName": "Old",
+                "thumbnailFile": "old@2x.png"
+            },
+            {
+                "link": "https://invis.io/K3JCRK2MJ5H#/298947609_New",
+                "templateName": "New",
+                "thumbnailFile": "new@2x.png"
             }
         ]
     }
